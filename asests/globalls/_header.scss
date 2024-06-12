@@ -1,0 +1,31 @@
+.header{
+    height: 240px;
+    background-color: #323334;
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 80px ;
+
+      &-right{
+        border: 1.5px solid red;
+      }
+    }
+    &-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    &-main{
+        background-color: red;
+        border-radius: 4px;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-row{
+            color: aliceblue;
+        }
+    }
+}

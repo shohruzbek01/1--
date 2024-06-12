@@ -1,0 +1,109 @@
+.header {
+  height: 240px;
+  background-color: #323334;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 80px;
+}
+.header-top-right {
+  border: 1.5px solid red;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header-main {
+  background-color: red;
+  border-radius: 4px;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-main-row {
+  color: aliceblue;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+label,
+input,
+button,
+select {
+  border: none;
+  background: none;
+}
+
+::-moz-placeholder {
+  color: aliceblue;
+}
+
+::placeholder {
+  color: aliceblue;
+}
+
+.banner-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banner-block {
+  width: 360px;
+  height: 167px;
+  border-radius: 19.45px;
+  background-color: rgba(55, 58, 58, 0.749);
+  border: 0.66px solid;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.banner-block-name {
+  color: aliceblue;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+.banner-block-about {
+  color: aliceblue;
+  max-width: 168px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.banner-block-right {
+  display: flex;
+  flex-direction: column;
+}
+.banner-block-button {
+  width: 50px;
+  height: 20px;
+  background-color: red;
+  border-radius: 4px;
+}/*# sourceMappingURL=main.css.map */
